@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'ftltl';
+    src: url('ftltlt-webfont.woff'),
+}
+
+body {
+    font-family: 'ftltl', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.stage {  
+    position: relative;
+    cursor: pointer;
+    
+    -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;    
+   overflow: hidden;    
+}
+
+.bannerSize{ 
+width: 300px; 
+height: 600px; 
+background-color: #000; 
+}
+
+.box{
+    width: 20px;
+    height: 10px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+.box1,.box2,.box3{
+    position: absolute;
+    width: 20px;
+    height: 10px;
+}
+
+.box1{
+    background-color: #9000ff;}
+
+.box2{
+    background-color: #55559f;
+    left: 30px;
+}
+
+.box3{
+    background-color: #b0b0eb;
+    left: 60px;
+}
+
+.headertext{
+    position: absolute;
+    color: #fcfcfc;
+    font-size: 40px;
+    top: 40px;
+    left: 30px;
+    font-weight:lighter;
+}
+
+.HiImg{
+    position: absolute;
+    top: 10px;
+    left: 115px;
+    width: 50px;
+    height: auto;
+}
+
+.simkaart{
+    position: absolute;
+    top: 47px;
+    left: 200px;
+    width: 70px;
+    height: auto;
+    transform: rotate(90deg);
+}
+
+.circle{
+    position: absolute;
+    top: 450px;
+    left: -20px;
+    width: 340px;
+    height: 370px;
+    border-radius: 100%;
+    background-color: hsl(240, 61%, 66%);
+}
+
+.headertext2{
+    position: absolute;
+    color: #fcfcfc;
+    font-size: 22px;
+    top: 95px;
+    left: 30px;
+    font-weight:lighter;
+}
+
+.listitem-1,.listitem-2,.listitem-3{
+    position: absolute;
+    color: #fcfcfc;
+    font-size: 15px;
+}
+
+.listitem-1{
+    position: absolute;
+    top: 250px;
+    left: 30px;
+}
+
+.listitem-2{
+    position: absolute;
+    top: 270px;
+    left: 30px;
+}
+
+.listitem-3{
+    position: absolute;
+    top: 290px;
+    left: 30px;
+}
+
+.list{
+    list-style-type: none;
+}
+
+.headertext3{
+    position: absolute;
+    color: #fcfcfc;
+    font-size: 15px;
+    top: 125px;
+    left: 30px;
+}
+
+.purple {
+    background-color: hsl(240, 61%, 66%);
+    color: white;
+    border-color: hsl(240, 20%, 99%);
+    border-width: 1px;
+
+}
+
+.button {
+    padding: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-style:solid;
+    border-radius: 17px;
+    text-decoration: none;
+    position: absolute;
+    top: 520px;
+    left: 40px;
+}

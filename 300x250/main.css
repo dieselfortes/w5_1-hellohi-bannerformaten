@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'ftltl';
+    src: url('ftltlt-webfont.woff'),
+}
+
+body {
+    font-family: 'ftltl', sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -18,10 +27,6 @@
 width: 300px; 
 height: 250px; 
 background-color: #000; 
-}
-
-body{
-   /* background-color: #000; */
 }
 
 .box{
@@ -54,25 +59,97 @@ body{
 .headertext{
     position: absolute;
     color: #fcfcfc;
-    font-size: 30px;
-    top: 60px;
+    font-size: 40px;
+    top: 40px;
     left: 30px;
+    font-weight:lighter;
 }
 
 .HiImg{
     position: absolute;
-    top: 20px;
-    left: 105px;
+    top: 10px;
+    left: 115px;
     width: 50px;
+    height: auto;
+}
+
+.simkaart{
+    position: absolute;
+    top: 47px;
+    left: 200px;
+    width: 70px;
     height: auto;
 }
 
 .circle{
     position: absolute;
-    top: 124px;
-    left: 100px;
-    width: 250px;
+    top: 180px;
+    left: 110px;
+    width: 290px;
     height: 250px;
     border-radius: 100%;
-    background-color: #7272dd;
+    background-color: hsl(240, 61%, 66%);
+}
+
+.headertext2{
+    position: absolute;
+    color: #fcfcfc;
+    font-size: 22px;
+    top: 95px;
+    left: 30px;
+    font-weight:lighter;
+}
+
+.listitem-1,.listitem-2,.listitem-3{
+    position: absolute;
+    color: #fcfcfc;
+    font-size: 15px;
+}
+
+.listitem-1{
+    position: absolute;
+    top: 150px;
+    left: 30px;
+}
+
+.listitem-2{
+    position: absolute;
+    top: 170px;
+    left: 30px;
+}
+
+.listitem-3{
+    position: absolute;
+    top: 190px;
+    left: 30px;
+}
+
+.list{
+    list-style-type: none;
+}
+
+.headertext3{
+    position: absolute;
+    color: #fcfcfc;
+    font-size: 15px;
+    top: 125px;
+    left: 30px;
+}
+
+.purple {
+    background-color: hsl(240, 61%, 66%);
+    color: white;
+    border-color: hsl(240, 20%, 99%);
+    border-width: 1px;
+
+}
+
+.button {
+    padding: 10px;
+    border-style:solid;
+    border-radius: 17px;
+    text-decoration: none;
+    position: absolute;
+    top: 200px;
+    left: 185px;
 }
