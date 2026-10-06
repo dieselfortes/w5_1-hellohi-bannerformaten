@@ -44,22 +44,24 @@ background-color: #000;
 }
 
 .box1{
-    background-color: #9000ff;}
+    background-color: #9000ff;
+    left: 20px;
+}
 
 .box2{
     background-color: #55559f;
-    left: 30px;
+    left: 45px;
 }
 
 .box3{
     background-color: #b0b0eb;
-    left: 60px;
+    left: 70px;
 }
 
 .headertext{
     position: absolute;
     color: #fcfcfc;
-    font-size: 40px;
+    font-size: 4.4em;
     top: 40px;
     left: 30px;
     font-weight:lighter;
@@ -67,17 +69,17 @@ background-color: #000;
 
 .HiImg{
     position: absolute;
-    top: 10px;
-    left: 115px;
-    width: 50px;
+    top: 15px;
+    left: 185px;
+    width: 60px;
     height: auto;
 }
 
 .simkaart{
     position: absolute;
-    top: 47px;
-    left: 250px;
-    width: 100px;
+    top: 17px;
+    left: 310px;
+    width: 130px;
     height: auto;
 }
 
@@ -94,8 +96,8 @@ background-color: #000;
 .headertext2{
     position: absolute;
     color: #fcfcfc;
-    font-size: 22px;
-    top: 95px;
+    font-size: 1.7em;
+    top: 145px;
     left: 30px;
     font-weight:lighter;
 }
@@ -103,25 +105,25 @@ background-color: #000;
 .listitem-1,.listitem-2,.listitem-3{
     position: absolute;
     color: #fcfcfc;
-    font-size: 15px;
+    font-size: 1.4em;
 }
 
 .listitem-1{
     position: absolute;
-    top: 150px;
-    left: 111px;
+    top: 140px;
+    left: 451px;
 }
 
 .listitem-2{
     position: absolute;
-    top: 170px;
-    left: 30px;
+    top: 160px;
+    left: 451px;
 }
 
 .listitem-3{
     position: absolute;
-    top: 190px;
-    left: 30px;
+    top: 180px;
+    left: 451px;
 }
 
 .list{
@@ -131,8 +133,8 @@ background-color: #000;
 .headertext3{
     position: absolute;
     color: #fcfcfc;
-    font-size: 15px;
-    top: 125px;
+    font-size: 1em;
+    top: 175px;
     left: 30px;
 }
 
